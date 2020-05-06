@@ -6,7 +6,7 @@ body{
 	/*overflow-x: hidden;*/
 }
 
-#light{
+.light{
 	font-weight: lighter;
 }
 
@@ -94,7 +94,7 @@ body{
 	padding-top: 5vw;
 	margin-left:29vw;
 	margin-right:9vw;
-	opacity: 0;
+	/*opacity: 0;*/
 }
 
 .p3{
@@ -183,10 +183,7 @@ body{
 	padding-top:12vw;
 	margin-left:20vw;
 	margin-right:14vw;
-}
-
-.p4:hover{
-	/*animation: fade-in 1.5s ease-out;*/
+	opacity: 0;
 }
 
 .p5{
