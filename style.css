@@ -3,7 +3,8 @@ body{
 	font-weight: regular;
 	font-size: 1.3vw;
 	line-height: 1.1;
-	/*overflow-x: hidden;*/
+	margin: 0;
+	overflow-x: hidden;
 }
 
 .light{
@@ -11,7 +12,7 @@ body{
 }
 
 .green{
-	width:99vw;
+	width:100vw;
 	height:150vh;
 	background-color: #11472D;
 }
@@ -23,6 +24,19 @@ body{
 	font-size:4vw;
 	color: #D1C895;
 	line-height: 1.3;
+	animation:color 2s infinite;
+}
+
+@keyframes color{
+	0%{
+		color:#D1C895;
+	}
+	50%{
+		color:#D19D17;
+	}
+	100%{
+		color:#D1C895;
+	}
 }
 
 .square{
@@ -34,7 +48,7 @@ body{
 	background-color: #D1C895;
 	grid-column-start: 5;
 	grid-column-end: 6;
-	animation: size 1s infinite;
+	animation: size 1.5s infinite;
 }
 
 @keyframes size{
@@ -94,6 +108,19 @@ body{
 	background-color: #D19D17;
 	margin-left: 20vw;
 	margin-top:2vw;
+	animation:content1 2s infinite;
+}
+
+@keyframes content1{
+	0%{
+		margin-left: 20vw;
+	}
+	50%{
+		margin-left:19.5vw; 
+	}
+	100%{
+		margin-left:20vw;
+	}
 }
 
 .p1{
@@ -101,20 +128,33 @@ body{
 	margin-left: 10vw;
 	margin-right: 9vw;
 	opacity: 0;
+	transition: opacity 1s;
+}
+
+.p1.show {
+	opacity: 1;
 }
 
 .p2{
+	position: absolute;
 	padding-top: 5vw;
+	width:23vw;
 	margin-left:29vw;
-	margin-right:9vw;
 	opacity: 0;
+	transition: opacity 1s;
+}
+
+.p2.show{
+	opacity: 1;
 }
 
 .p3{
-	padding-top: 2vw;
+	position: absolute;
+	margin-top:10vw;
 	margin-left:29vw;
-	margin-right:9vw;
+	width:23vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 @keyframes move{
@@ -167,8 +207,48 @@ body{
 .orange{
 	margin-top: 27.5vw;
 	background-color: #EFB257;
-	width:99vw;
+	width:100vw;
 	height: 180vh;
+}
+
+@keyframes content2{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.04);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+.content2{
+	position: absolute;
+	width: 55vw;
+	height:55vw;
+	border-radius: 50%;
+	background-color: #D06666;
+	margin-top:-44vw;
+	margin-left:-11vw;
+	animation:content2 2s infinite;
+}
+
+#container2{
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.p4{
+	padding-top:13vw;
+	width:23vw;
+	margin-left:20vw;
+}
+
+.p5{
+	padding-top:2vw;
+	width:23vw;
+	margin-left:20vw;
 }
 
 .content2_line{
@@ -182,30 +262,6 @@ body{
 	margin-left:-12vw;
 }
 
-.content2{
-	position: absolute;
-	width: 55vw;
-	height:55vw;
-	border-radius: 50%;
-	background-color: #D06666;
-	margin-top:-44vw;
-	margin-left:-11vw;
-}
-
-.p4{
-	padding-top:12vw;
-	margin-left:20vw;
-	margin-right:14vw;
-	opacity: 0;
-}
-
-.p5{
-	padding-top:2vw;
-	margin-left:20vw;
-	margin-right:14vw;
-	opacity: 0;
-}
-
 .content3{
 	position: absolute;
 	width:80vw;
@@ -214,6 +270,19 @@ body{
 	background-color: #D39898;
 	margin-left:45vw;
 	margin-top:-20vw;
+	/*animation:size2 2s infinite;*/
+}
+
+@keyframes size2{
+	0%{
+		transform: scale(1.04);
+	}
+	50%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.04);
+	}
 }
 
 .circle4{
@@ -223,6 +292,19 @@ body{
 	background-color: #B14458;
 	margin-left:15vw;
 	margin-top:13vw;
+	animation:c4 2s infinite;
+}
+
+@keyframes c4{
+	0%{
+		transform: scale(1.1);
+	}
+	50%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.1);
+	}
 }
 
 .p6{
@@ -230,6 +312,7 @@ body{
 	margin-left:9vw;
 	margin-top:7vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p7{
@@ -237,6 +320,7 @@ body{
 	margin-left:9vw;
 	margin-top: 2vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .square2{
@@ -246,6 +330,28 @@ body{
 	background-color: #497D88;
 	margin-left:10vw;
 	margin-top:18vw;
+	animation: square2 2s infinite;
+}
+
+@keyframes square2{
+	0%{
+		margin-left:10vw;
+		width:9vw;
+		height:9vw;
+		margin-top: 18vw;
+	}
+	50%{
+		margin-left:10vw;
+		width:15vw;
+		height:4vw;
+		margin-top: 22vw;
+	}
+	100%{
+		margin-left:10vw;
+		width:9vw;
+		height:9vw;
+		margin-top: 18vw;
+	}
 }
 
 .sentence1{
@@ -254,13 +360,32 @@ body{
 	background-color: #52A490;
 	margin-left:-35vw;
 	margin-top:4vw;
+	animation:s1 2s infinite;
 }
+
+@keyframes s1{
+	0%{
+		transform: scale(0.93);
+		margin-left:-37.2vw;
+	}
+	50%{
+		transform: scale(1);
+		margin-left:-35vw;
+	}
+	100%{
+		transform: scale(0.93);
+		margin-left:-37.2vw;
+	}
+}
+
 
 .s1{
 	font-size: 2vw;
 	width:55vw;
 	padding-top:2.5vw;
 	margin-left: 10vw;
+	opacity: 0;
+	transition: opacity 1s;
 }
 
 .content4{
@@ -269,6 +394,20 @@ body{
 	height:99vw;
 	background-color: #5D7A39;
 	margin-top:-35vw;
+	animation:stretch 2s infinite;
+}
+
+
+@keyframes stretch{
+	0%{
+		width:40vw;
+	}
+	50%{
+		width:41vw;
+	}
+	100%{
+		width:40vw;
+	}
 }
 
 .square3{
@@ -278,6 +417,25 @@ body{
 	background-color: #C3D06F;
 	margin-left:30vw;
 	margin-top: 4vw;
+	animation: s3 2s infinite;
+}
+
+@keyframes s3{
+	0%{
+		margin-left:30vw;
+		border-radius: 0%;
+		background-color: #C3D06F;
+	}
+	50%{
+		margin-left:53vw;
+		border-radius: 50%;
+		background-color: #ED8016;
+	}
+	100%{
+		margin-left:30vw;
+		border-radius: 0%;
+		background-color: #C3D06F;
+	}
 }
 
 .container4{
@@ -290,21 +448,25 @@ body{
 .p8{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p9{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p10{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p11{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .circle5{
@@ -319,7 +481,7 @@ body{
 .pink{
 	position: absolute;
 	margin-top:-12vw;
-	width:99vw;
+	width:100vw;
 	height:285vh;
 	background-color: #E1A5A5;
 }
@@ -330,6 +492,23 @@ body{
 	background-color: #3D3535;
 	margin-left:67vw;
 	margin-top:-70vw;
+	animation:stretch2 2s infinite;
+
+}
+
+@keyframes stretch2{
+	0%{
+		width:34vw;
+		margin-left:66vw;
+	}
+	50%{
+		width:35vw;
+		margin-left:65vw;
+	}
+	100%{
+		width:34vw;
+		margin-left:66vw;
+	}
 }
 
 .container5{
@@ -348,6 +527,19 @@ body{
 	background-color: #A73B3B;
 	margin-top:-16vw;
 	margin-left: -10vw;
+	animation: circle6 2s infinite;
+}
+
+@keyframes circle6{
+	0%{
+		margin-left: -10vw;
+	}
+	50%{
+		margin-left: -16vw;
+	}
+	100%{
+		margin-left: -10vw;
+	}
 }
 
 .s2{
@@ -356,51 +548,63 @@ body{
 	margin-left:4.5vw;
 	padding-top:12vw;
 	font-size:2vw;
+	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p12{
 	opacity: 0;
+	transition: opacity 1s;
 }
+
 
 .p13{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p14{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p15{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p16{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p17{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p18{
 	padding-bottom: 1.5vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p19{
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .container6{
-	margin-top:-5vw;
+	position: absolute;
+	margin-top:-15vw;
 	width:99vw;
-	height:87vw;
-	/*overflow: hidden;*/
+	height:84.4vw;
+	overflow-y: hidden;
 }
 
 .content6{
@@ -411,7 +615,7 @@ body{
 	border-radius: 50%;
 	background-color: #94BEE5;
 	margin-left:-45vw;
-	margin-top: 2vw;
+	margin-top: 9vw;
 }
 
 .content6_line{
@@ -421,7 +625,7 @@ body{
 	background-color: transparent;
 	border:3px solid #94BEE5;
 	margin-left:-46vw;
-	margin-top:-12vw;
+	margin-top:6vw;
 }
 
 .p20{
@@ -429,6 +633,7 @@ body{
 	margin-left:54vw;
 	padding-top:18vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p21{
@@ -436,6 +641,7 @@ body{
 	margin-left:54vw;
 	padding-top:2vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p22{
@@ -443,6 +649,7 @@ body{
 	margin-left:54vw;
 	padding-top:2vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p23{
@@ -450,6 +657,7 @@ body{
 	margin-left:54vw;
 	padding-top:2vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
 
 .p24{
@@ -457,7 +665,9 @@ body{
 	margin-left:54vw;
 	padding-top:2vw;
 	opacity: 0;
+	transition: opacity 1s;
 }
+
 .circle7{
 	position: absolute;
 	background-color: #E4CE95;
@@ -466,6 +676,22 @@ body{
 	border-radius: 50%;
 	margin-left:72vw;
 	margin-top:-9vw;
+	animation: c7 10s infinite;
+}
+
+@keyframes c7{
+	0%{
+		margin-left:72vw;
+		margin-top:-9vw;
+	}
+	50%{
+		margin-left:100vw;
+		margin-top:18vw;
+	}
+	100%{
+		margin-left:72vw;
+		margin-top:-9vw;
+	}
 }
 
 .s3{
@@ -474,13 +700,14 @@ body{
 	margin-left:5vw;
 	padding-top:6vw;
 	font-size:2vw;
+	opacity: 0;
+	transition: opacity 1s;
 }
 
 .title2{
 	width:23vw;
 	position: absolute;
 	margin-left:121vw;
-	margin-top:3vw;
 	color: white;
 	font-size:1.5vw;
 }
