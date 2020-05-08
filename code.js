@@ -4,6 +4,12 @@ p1.onmousemove = function(event){
 	p1.classList.add("show");
 }
 
+var list = document.getElementById("list")
+
+list.onmousemove = function(event){
+	list.style.opacity = 1;
+}
+
 var p2 = document.getElementById("p2")
 
 p2.onmousemove = function(event){
