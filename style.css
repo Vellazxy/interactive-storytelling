@@ -1,7 +1,7 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: regular;
-	font-size: 14px;
+	font-size: 1.7em;
 	line-height: 1.1;
 	margin: 0;
 	overflow-x: hidden;
@@ -229,7 +229,7 @@ body{
 	width: 55vw;
 	height:55vw;
 	border-radius: 50%;
-	background-color: #D06666;
+	background-color: #9E2E2E;
 	margin-top:-44vw;
 	margin-left:-11vw;
 	animation:content2 2s infinite;
@@ -241,12 +241,14 @@ body{
 }
 
 .p4{
+	color: white;
 	padding-top:13vw;
 	width:23vw;
 	margin-left:20vw;
 }
 
 .p5{
+	color: white;
 	padding-top:2vw;
 	width:23vw;
 	margin-left:20vw;
@@ -403,7 +405,7 @@ body{
 	position: absolute;
 	width:40vw;
 	height:99vw;
-	background-color: #5D7A39;
+	background-color: #475E2C;
 	margin-top:-35vw;
 	animation:stretch 2s infinite;
 }
@@ -460,31 +462,34 @@ body{
 }
 
 .container4{
-	font-size: 1.2vw;
 	width: 25vw;
 	margin-left:7vw;
 	padding-top:14vw;
 }
 
 .p8{
+	color:white;
 	padding-bottom: 1.5vw;
 	opacity: 0;
 	transition: opacity 1s;
 }
 
 .p9{
+	color:white;
 	padding-bottom: 1.5vw;
 	opacity: 0;
 	transition: opacity 1s;
 }
 
 .p10{
+	color:white;
 	padding-bottom: 1.5vw;
 	opacity: 0;
 	transition: opacity 1s;
 }
 
 .p11{
+	color:white;
 	padding-bottom: 1.5vw;
 	opacity: 0;
 	transition: opacity 1s;
@@ -543,7 +548,6 @@ body{
 }
 
 .container5{
-	font-size: 1.2vw;
 	width:20vw;
 	margin-left:5vw;
 	padding-top:17vw;
@@ -639,12 +643,11 @@ body{
 }
 
 .content6{
-	font-size: 1.2vw;
 	position: absolute;
 	width:117vw;
 	height:117vw;
 	border-radius: 50%;
-	background-color: #548AB8;
+	background-color: #B3CADF;
 	margin-left:-45vw;
 	margin-top: 9vw;
 }
