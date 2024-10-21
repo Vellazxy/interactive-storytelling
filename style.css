@@ -1,7 +1,7 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: regular;
-	font-size: 1.3em;
+	font-size: 14px;
 	line-height: 1.1;
 	margin: 0;
 	overflow-x: hidden;
@@ -114,6 +114,7 @@ body{
 }
 
 .p1{
+	font-size: 1.5em;
 	padding-top:7vw;
 	margin-left: 10vw;
 	margin-right: 9vw;
@@ -127,7 +128,6 @@ body{
 
 .p2{
 	position: absolute;
-	font-size: 3em;
 	padding-top: 5vw;
 	width:23vw;
 	margin-left:29vw;
