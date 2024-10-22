@@ -18,7 +18,7 @@ body{
 
 .green{
 	width:100vw;
-	height:250vh;
+	height:320vh;
 	background-color: #11472D;
 }
 
@@ -98,7 +98,7 @@ body{
 
 .content1{
 	width:60vw;
-	height: 40vw;
+	height: 70vw;
 	background-color: #D19D17;
 	margin-left: 20vw;
 	margin-top:2vw;
@@ -144,7 +144,7 @@ body{
 
 .p3{
 	position: absolute;
-	margin-top:10vw;
+	margin-top:15vw;
 	margin-left:29vw;
 	width:23vw;
 	opacity: 0;
@@ -233,7 +233,7 @@ body{
 	height:65vw;
 	border-radius: 50%;
 	background-color: #9E2E2E;
-	margin-top:-24vw;
+	margin-top:-34vw;
 	margin-left:-11vw;
 	animation:content2 2s infinite;
 }
@@ -264,7 +264,7 @@ body{
 	border-radius: 50%;
 	border: 2px solid #D06666;
 	background-color: transparent;
-	margin-top: -25vw;
+	margin-top: -35vw;
 	margin-left:-12vw;
 }
 
@@ -365,7 +365,7 @@ body{
 	height:11vw;
 	background-color: #52A490;
 	margin-left:-35vw;
-	margin-top:4vw;
+	margin-top:10vw;
 	animation:s1 2s infinite;
 }
 
@@ -599,7 +599,7 @@ body{
 
 
 .p13{
-	padding-bottom: 1.5vw;
+	padding-bottom: .5vw;
 	opacity: 0;
 	transition: opacity 1s;
 }
@@ -643,28 +643,28 @@ body{
 	position: absolute;
 	margin-top:-15vw;
 	width:99vw;
-	height:110vw;
+	height:125vw;
 	overflow-y: hidden;
 }
 
 .content6{
 	position: absolute;
-	width:120vw;
-	height:120vw;
+	width:140vw;
+	height:140vw;
 	border-radius: 50%;
 	background-color: #B3CADF;
 	margin-left:-45vw;
-	margin-top: 9vw;
+	margin-top: 17vw;
 }
 
 .content6_line{
-	width:122vw;
-	height: 122vw;
+	width:142vw;
+	height: 142vw;
 	border-radius: 50%;
 	background-color: transparent;
 	border:3px solid #548AB8;
 	margin-left:-46vw;
-	margin-top:6vw;
+	margin-top:15vw;
 }
 
 .p20{
