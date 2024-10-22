@@ -521,7 +521,7 @@ body{
 	position: absolute;
 	margin-top:-12vw;
 	width:100vw;
-	height:400vh;
+	height:430vh;
 	background-color: #E1A5A5;
 }
 
@@ -530,7 +530,7 @@ body{
 	height: 93vw;
 	background-color: #3D3535;
 	margin-left:67vw;
-	margin-top:-70vw;
+	margin-top:-100vw;
 	animation:stretch2 2s infinite;
 
 }
@@ -563,7 +563,7 @@ body{
 	height:30vw;
 	border-radius: 50%;
 	background-color: #A73B3B;
-	margin-top:-16vw;
+	margin-top:-30vw;
 	margin-left: -10vw;
 	animation: circle6 2s infinite;
 }
