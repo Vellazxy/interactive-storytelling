@@ -98,7 +98,7 @@ body{
 
 .content1{
 	width:60vw;
-	height: 70vw;
+	height: 60vw;
 	background-color: #D19D17;
 	margin-left: 20vw;
 	margin-top:2vw;
@@ -229,8 +229,8 @@ body{
 
 .content2{
 	position: absolute;
-	width: 65vw;
-	height:65vw;
+	width: 75vw;
+	height:75vw;
 	border-radius: 50%;
 	background-color: #9E2E2E;
 	margin-top:-34vw;
@@ -259,8 +259,8 @@ body{
 
 .content2_line{
 	position: absolute;
-	width: 67vw;
-	height:67vw;
+	width: 77vw;
+	height:77vw;
 	border-radius: 50%;
 	border: 2px solid #D06666;
 	background-color: transparent;
@@ -407,9 +407,9 @@ body{
 .content4{
 	position: absolute;
 	width:40vw;
-	height:140vw;
+	height:160vw;
 	background-color: #475E2C;
-	margin-top:-35vw;
+	margin-top:-25vw;
 	animation:stretch 2s infinite;
 }
 
@@ -643,7 +643,7 @@ body{
 	position: absolute;
 	margin-top:-15vw;
 	width:99vw;
-	height:125vw;
+	height:135vw;
 	overflow-y: hidden;
 }
 
