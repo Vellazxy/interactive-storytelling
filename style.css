@@ -8,6 +8,10 @@ body{
 	color:#3D3535;
 }
 
+h1{
+	font size: 1.7em;
+}
+
 .light{
 	font-weight: bolder;
 }
