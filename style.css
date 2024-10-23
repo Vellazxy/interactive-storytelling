@@ -336,7 +336,7 @@ body{
 	height:9vw;
 	background-color: #497D88;
 	margin-left:10vw;
-	margin-top:88vw;
+	margin-top:148vw;
 	animation: square2 2s infinite;
 }
 
@@ -523,7 +523,7 @@ body{
 	position: absolute;
 	margin-top:-12vw;
 	width:100vw;
-	height:520vh;
+	height:490vh;
 	background-color: #E1A5A5;
 }
 
