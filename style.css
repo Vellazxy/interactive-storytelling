@@ -336,7 +336,7 @@ body{
 	height:9vw;
 	background-color: #497D88;
 	margin-left:10vw;
-	margin-top:148vw;
+	margin-top:68vw;
 	animation: square2 2s infinite;
 }
 
@@ -345,19 +345,19 @@ body{
 		margin-left:10vw;
 		width:9vw;
 		height:9vw;
-		margin-top: 18vw;
+		margin-top: 68vw;
 	}
 	50%{
 		margin-left:10vw;
 		width:15vw;
 		height:4vw;
-		margin-top: 22vw;
+		margin-top: 72vw;
 	}
 	100%{
 		margin-left:10vw;
 		width:9vw;
 		height:9vw;
-		margin-top: 18vw;
+		margin-top: 68vw;
 	}
 }
 
@@ -523,7 +523,7 @@ body{
 	position: absolute;
 	margin-top:-12vw;
 	width:100vw;
-	height:490vh;
+	height:470vh;
 	background-color: #E1A5A5;
 }
 
