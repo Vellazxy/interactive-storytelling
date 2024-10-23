@@ -335,7 +335,7 @@ body{
 	height:9vw;
 	background-color: #497D88;
 	margin-left:10vw;
-	margin-top:18vw;
+	margin-top:28vw;
 	animation: square2 2s infinite;
 }
 
@@ -395,6 +395,7 @@ body{
 }
 
 .food2{
+	color:#E4CE95;
 	text-align: center;
 	padding-top:8vw;
 	opacity: 0;
@@ -521,13 +522,13 @@ body{
 	position: absolute;
 	margin-top:-12vw;
 	width:100vw;
-	height:400vh;
+	height:420vh;
 	background-color: #E1A5A5;
 }
 
 .content5{
 	width:33vw;
-	height: 93vw;
+	height: 133vw;
 	background-color: #3D3535;
 	margin-left:67vw;
 	margin-top:-100vw;
@@ -748,7 +749,7 @@ body{
 	position: absolute;
 	width:21vw;
 	margin-left:122vw;
-	color: white;
+	color: black;
 	margin-top:-1vw;
 }
 
